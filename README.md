@@ -1,1 +1,4 @@
 # Stock-market-real-time
+In this Project on Real-Time Stock Market Data, we will leverage Apache Kafka for real-time data ingestion and streaming. Kafka will handle the continuous flow of stock market data, allowing us to process and analyze it on-the-fly. Using Python, we will develop custom producers and consumers to interact with Kafka, ensuring seamless data transfer and transformation. The real-time data will be ingested into AWS, where we’ll use AWS Glue to orchestrate ETL processes and manage data pipelines efficiently.
+
+To enable powerful querying and analysis, we will utilize AWS Athena to query the processed data directly from S3 using SQL. This setup will facilitate rapid insights and reporting on stock market trends. By integrating these technologies, the project aims to deliver a robust data engineering solution that handles high-throughput data streams and provides actionable insights from real-time stock market data.
